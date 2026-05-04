@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Basit bir Discord botu",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup:env": "node scripts/setup-env.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.23.2",
+    "dotenv": "^16.6.1"
+  }
+}
