@@ -33,6 +33,13 @@ Sonra `.env` dosyasını açıp değerleri doldur.
 
 > `.env` dosyası gizlidir, commitlenmez (`.gitignore` içinde var).
 
+
+### Sadece token güncellemek için
+Eğer `.env` zaten varsa sadece token'ı değiştirmek için:
+```bash
+npm run set:token
+```
+
 ## Discord Developer Portal'dan gerekli değerleri bulma
 1. https://discord.com/developers/applications adresine gir.
 2. Uygulamanı seç.

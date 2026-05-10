@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "setup:env": "node scripts/setup-env.js"
+    "setup:env": "node scripts/setup-env.js",
+    "set:token": "node scripts/set-token.js"
   },
   "dependencies": {
     "discord.js": "^14.23.2",
